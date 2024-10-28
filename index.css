@@ -1,0 +1,20 @@
+/* Estilo para el header */
+.header {
+  background-image: url("Imagenes/encabezado.jpg"); /* Imagen de fondo para el encabezado */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* Estilo para las tarjetas de departamentos */
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
